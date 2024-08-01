@@ -1,7 +1,9 @@
 function kbdoff {
-	xinput float 19
+	export KBDMASTER=$(xinput list | grep 'AT Translated' | sed "s/.*keyboard\\s\(\)//" | awk -F '[()]' '{print $2}')
+	export KBDSLAVE=$(xinput list | grep 'AT Translated' | sed "s/.*id=//" | sed "s/\\s.*//")
+	xinput float $KBDSLAVE
 }
 
 function kbdon {
-	xinput reattach 19 3
+	xinput reattach $KBDSLAVE $KBDMASTER
 }
