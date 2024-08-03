@@ -10,4 +10,4 @@ cd pwndbg
 sudo gpasswd -a $USER input
 sudo pacman -S xdotool libinput-gestures
 ln -s libinput-gestures.conf ~/.config/libinput-gestures.conf
-libinput-gestures-setup autostart start
+libinput-gestures-setup stop desktop autostart start

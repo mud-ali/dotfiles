@@ -50,3 +50,11 @@ Shortcuts to connect and disconnect a WireGuard VPN
 
 When KDE Plasma glitches out. Definitely stolen from some forum that I 
 can no longer find (thanks whoever you are!)
+
+## unfreezede.sh 
+
+There is a bug in my system (or in Plasma, not sure) that occurs when
+the cursor is moved or keyboard is pressed in the same moment that the 
+screen is falling asleep. The login screen freezes and the only ways
+to get back in are to restart or with this script, which logins the
+session and kills the login screen process.

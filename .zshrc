@@ -116,6 +116,7 @@ source /home/mudasir/Documents/.dotfiles/pvc.sh
 # source /home/mudasir/Documents/.dotfiles/cclib50.sh
 source /home/mudasir/Documents/.dotfiles/restart_kde.sh
 source /home/mudasir/Documents/.dotfiles/kbdtog.sh
+source /home/mudasir/Documents/.dotfiles/unfreezede.sh
 export ANDROID_HOME=/home/mudasir/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
